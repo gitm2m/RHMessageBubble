@@ -1,0 +1,13 @@
+RHMessageBubble
+
+Version 1.0
+22. August 2011
+Author: Ralph Harrer
+Web: http://www.ralphharrer.at
+
+
+INSTRUCTIONS
+------------
+Import the following files into your project:
+Source/RHMessageBubble.h
+Source/RHMessageBubble.m
