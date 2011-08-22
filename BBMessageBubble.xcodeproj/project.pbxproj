@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99EE3CDB1402A25700A3D596 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EE3CDA1402A25700A3D596 /* UIKit.framework */; };
+		99EE3CDD1402A25700A3D596 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EE3CDC1402A25700A3D596 /* Foundation.framework */; };
+		99EE3CDF1402A25800A3D596 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EE3CDE1402A25800A3D596 /* CoreGraphics.framework */; };
+		99EE3CE51402A25800A3D596 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99EE3CE31402A25800A3D596 /* InfoPlist.strings */; };
+		99EE3CE71402A25800A3D596 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EE3CE61402A25800A3D596 /* main.m */; };
+		99EE3CEB1402A25800A3D596 /* BBMessageBubbleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EE3CEA1402A25800A3D596 /* BBMessageBubbleAppDelegate.m */; };
+		99EE3CEE1402A25800A3D596 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99EE3CEC1402A25800A3D596 /* MainWindow.xib */; };
+		99EE3CF11402A25800A3D596 /* BBMessageBubbleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EE3CF01402A25800A3D596 /* BBMessageBubbleViewController.m */; };
+		99EE3CF41402A25800A3D596 /* BBMessageBubbleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99EE3CF21402A25800A3D596 /* BBMessageBubbleViewController.xib */; };
+		99EE3D011402A28800A3D596 /* RHMessageBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EE3D001402A28800A3D596 /* RHMessageBubble.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99EE3CD61402A25700A3D596 /* BBMessageBubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBMessageBubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99EE3CDA1402A25700A3D596 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		99EE3CDC1402A25700A3D596 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		99EE3CDE1402A25800A3D596 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		99EE3CE21402A25800A3D596 /* BBMessageBubble-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BBMessageBubble-Info.plist"; sourceTree = "<group>"; };
+		99EE3CE41402A25800A3D596 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99EE3CE61402A25800A3D596 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99EE3CE81402A25800A3D596 /* BBMessageBubble-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BBMessageBubble-Prefix.pch"; sourceTree = "<group>"; };
+		99EE3CE91402A25800A3D596 /* BBMessageBubbleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBMessageBubbleAppDelegate.h; sourceTree = "<group>"; };
+		99EE3CEA1402A25800A3D596 /* BBMessageBubbleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBMessageBubbleAppDelegate.m; sourceTree = "<group>"; };
+		99EE3CED1402A25800A3D596 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		99EE3CEF1402A25800A3D596 /* BBMessageBubbleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBMessageBubbleViewController.h; sourceTree = "<group>"; };
+		99EE3CF01402A25800A3D596 /* BBMessageBubbleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBMessageBubbleViewController.m; sourceTree = "<group>"; };
+		99EE3CF31402A25800A3D596 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BBMessageBubbleViewController.xib; sourceTree = "<group>"; };
+		99EE3CFF1402A28800A3D596 /* RHMessageBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHMessageBubble.h; sourceTree = "<group>"; };
+		99EE3D001402A28800A3D596 /* RHMessageBubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHMessageBubble.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99EE3CD31402A25700A3D596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99EE3CDB1402A25700A3D596 /* UIKit.framework in Frameworks */,
+				99EE3CDD1402A25700A3D596 /* Foundation.framework in Frameworks */,
+				99EE3CDF1402A25800A3D596 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99EE3CCB1402A25700A3D596 = {
+			isa = PBXGroup;
+			children = (
+				99EE3CE01402A25800A3D596 /* BBMessageBubble */,
+				99EE3CD91402A25700A3D596 /* Frameworks */,
+				99EE3CD71402A25700A3D596 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99EE3CD71402A25700A3D596 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99EE3CD61402A25700A3D596 /* BBMessageBubble.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99EE3CD91402A25700A3D596 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99EE3CDA1402A25700A3D596 /* UIKit.framework */,
+				99EE3CDC1402A25700A3D596 /* Foundation.framework */,
+				99EE3CDE1402A25800A3D596 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99EE3CE01402A25800A3D596 /* BBMessageBubble */ = {
+			isa = PBXGroup;
+			children = (
+				99EE3CE91402A25800A3D596 /* BBMessageBubbleAppDelegate.h */,
+				99EE3CEA1402A25800A3D596 /* BBMessageBubbleAppDelegate.m */,
+				99EE3CEC1402A25800A3D596 /* MainWindow.xib */,
+				99EE3CEF1402A25800A3D596 /* BBMessageBubbleViewController.h */,
+				99EE3CF01402A25800A3D596 /* BBMessageBubbleViewController.m */,
+				99EE3CF21402A25800A3D596 /* BBMessageBubbleViewController.xib */,
+				99EE3CE11402A25800A3D596 /* Supporting Files */,
+				99EE3CFE1402A28800A3D596 /* Source */,
+			);
+			path = BBMessageBubble;
+			sourceTree = "<group>";
+		};
+		99EE3CE11402A25800A3D596 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99EE3CE21402A25800A3D596 /* BBMessageBubble-Info.plist */,
+				99EE3CE31402A25800A3D596 /* InfoPlist.strings */,
+				99EE3CE61402A25800A3D596 /* main.m */,
+				99EE3CE81402A25800A3D596 /* BBMessageBubble-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99EE3CFE1402A28800A3D596 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				99EE3CFF1402A28800A3D596 /* RHMessageBubble.h */,
+				99EE3D001402A28800A3D596 /* RHMessageBubble.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99EE3CD51402A25700A3D596 /* BBMessageBubble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99EE3CF71402A25800A3D596 /* Build configuration list for PBXNativeTarget "BBMessageBubble" */;
+			buildPhases = (
+				99EE3CD21402A25700A3D596 /* Sources */,
+				99EE3CD31402A25700A3D596 /* Frameworks */,
+				99EE3CD41402A25700A3D596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBMessageBubble;
+			productName = BBMessageBubble;
+			productReference = 99EE3CD61402A25700A3D596 /* BBMessageBubble.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99EE3CCD1402A25700A3D596 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 99EE3CD01402A25700A3D596 /* Build configuration list for PBXProject "BBMessageBubble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 99EE3CCB1402A25700A3D596;
+			productRefGroup = 99EE3CD71402A25700A3D596 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99EE3CD51402A25700A3D596 /* BBMessageBubble */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99EE3CD41402A25700A3D596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99EE3CE51402A25800A3D596 /* InfoPlist.strings in Resources */,
+				99EE3CEE1402A25800A3D596 /* MainWindow.xib in Resources */,
+				99EE3CF41402A25800A3D596 /* BBMessageBubbleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99EE3CD21402A25700A3D596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99EE3CE71402A25800A3D596 /* main.m in Sources */,
+				99EE3CEB1402A25800A3D596 /* BBMessageBubbleAppDelegate.m in Sources */,
+				99EE3CF11402A25800A3D596 /* BBMessageBubbleViewController.m in Sources */,
+				99EE3D011402A28800A3D596 /* RHMessageBubble.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99EE3CE31402A25800A3D596 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99EE3CE41402A25800A3D596 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		99EE3CEC1402A25800A3D596 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99EE3CED1402A25800A3D596 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		99EE3CF21402A25800A3D596 /* BBMessageBubbleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99EE3CF31402A25800A3D596 /* en */,
+			);
+			name = BBMessageBubbleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99EE3CF51402A25800A3D596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		99EE3CF61402A25800A3D596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99EE3CF81402A25800A3D596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BBMessageBubble/BBMessageBubble-Prefix.pch";
+				INFOPLIST_FILE = "BBMessageBubble/BBMessageBubble-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		99EE3CF91402A25800A3D596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BBMessageBubble/BBMessageBubble-Prefix.pch";
+				INFOPLIST_FILE = "BBMessageBubble/BBMessageBubble-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99EE3CD01402A25700A3D596 /* Build configuration list for PBXProject "BBMessageBubble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99EE3CF51402A25800A3D596 /* Debug */,
+				99EE3CF61402A25800A3D596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99EE3CF71402A25800A3D596 /* Build configuration list for PBXNativeTarget "BBMessageBubble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99EE3CF81402A25800A3D596 /* Debug */,
+				99EE3CF91402A25800A3D596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99EE3CCD1402A25700A3D596 /* Project object */;
+}
