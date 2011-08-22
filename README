@@ -11,3 +11,14 @@ INSTRUCTIONS
 Import the following files into your project:
 Source/RHMessageBubble.h
 Source/RHMessageBubble.m
+
+Start displaying messages with the methods defined in
+Source/RHMessageBubble.h
+
+Example:
+[RHMessageBubble bubbleWithSpinnerAndString:@"Hello World" 
+									 toView:self.view 
+								 forSeconds:2.0f];
+								 
+								 
+For further instructions check out the demo project

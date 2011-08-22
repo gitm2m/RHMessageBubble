@@ -1352,8 +1352,8 @@
 		<string>PrimaryDocumentVisibleCharacterRange</string>
 		<string>HideAllIssues</string>
 		<string>PrimaryDocumentSelectedCharacterRange</string>
-		<real>335717092.67030901</real>
-		<string>{0, 1289}</string>
+		<real>335717404.68849897</real>
+		<string>{835, 1689}</string>
 		<string>{480, 0}</string>
 		<dict>
 			<key>$class</key>
@@ -1448,7 +1448,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>335717056.783369</real>
+		<real>335717402.00500298</real>
 		<string>{0, 918}</string>
 		<string>{911, 0}</string>
 		<dict>
@@ -1935,7 +1935,7 @@
 				<integer>183</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/ralphharrer/Development/iPhone/RHMessageBubble%20Project/RHMessageBubble/RHMessageBubble/BBMessageBubble/en.lproj/BBMessageBubbleViewController.xib</string>
+		<string>file://localhost/Users/ralphharrer/Development/iPhone/RHMessageBubble%20Project/RHMessageBubble/RHMessageBubble/BBMessageBubble/BBMessageBubbleViewController.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -1953,7 +1953,7 @@
 				<integer>185</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/ralphharrer/Development/iPhone/RHMessageBubble%20Project/RHMessageBubble/RHMessageBubble/BBMessageBubble/BBMessageBubbleViewController.m</string>
+		<string>file://localhost/Users/ralphharrer/Development/iPhone/RHMessageBubble%20Project/RHMessageBubble/RHMessageBubble/BBMessageBubble/BBMessageBubbleViewController.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -1971,7 +1971,7 @@
 				<integer>187</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/ralphharrer/Development/iPhone/RHMessageBubble%20Project/RHMessageBubble/RHMessageBubble/BBMessageBubble/BBMessageBubbleViewController.h</string>
+		<string>file://localhost/Users/ralphharrer/Development/iPhone/RHMessageBubble%20Project/RHMessageBubble/RHMessageBubble/BBMessageBubble/en.lproj/BBMessageBubbleViewController.xib</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2096,7 +2096,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>368</integer>
+					<integer>366</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -2186,15 +2186,15 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>313</integer>
+					<integer>311</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>319</integer>
+					<integer>317</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>359</integer>
+					<integer>357</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -2214,7 +2214,7 @@
 		<string>IDEWorkspaceTabControllerDesignAreaSplitView</string>
 		<string>IDEShowUtilities</string>
 		<string>AssistantEditorsLayout</string>
-		<string>BBMessageBubbleViewController.xib</string>
+		<string>BBMessageBubbleViewController.m</string>
 		<true/>
 		<dict>
 			<key>$class</key>
@@ -2771,7 +2771,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>17</integer>
+					<integer>19</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -2786,7 +2786,7 @@
 		<string>DocumentNavigableItemName</string>
 		<string>DocumentExtensionIdentifier</string>
 		<string>DocumentURL</string>
-		<string>com.apple.InterfaceBuilder3.CocoaTouch.XIB</string>
+		<string>public.objective-c-source</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2796,7 +2796,7 @@
 			<key>DocumentLocation</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>278</integer>
+				<integer>277</integer>
 			</dict>
 			<key>DomainIdentifier</key>
 			<dict>
@@ -2811,7 +2811,7 @@
 			<key>IndexOfDocumentIdentifier</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>277</integer>
+				<integer>139</integer>
 			</dict>
 		</dict>
 		<string>Xcode.IDENavigableItemDomain.WorkspaceStructure</string>
@@ -2849,7 +2849,7 @@
 				<integer>272</integer>
 			</dict>
 		</dict>
-		<string>BBMessageBubbleViewController.xib</string>
+		<string>BBMessageBubbleViewController.m</string>
 		<dict>
 			<key>$classes</key>
 			<array>
@@ -2884,7 +2884,6 @@
 			</dict>
 		</dict>
 		<string>BBMessageBubble</string>
-		<integer>9223372036854775807</integer>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2894,13 +2893,22 @@
 			<key>documentURL</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>26</integer>
+				<integer>278</integer>
 			</dict>
 			<key>timestamp</key>
 			<dict>
 				<key>CF$UID</key>
 				<integer>0</integer>
 			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>23</integer>
+			</dict>
+			<key>NS.string</key>
+			<string>file://localhost/Users/ralphharrer/Development/iPhone/RHMessageBubble%20Project/RHMessageBubble/RHMessageBubble/BBMessageBubble/BBMessageBubbleViewController.m</string>
 		</dict>
 		<dict>
 			<key>$classes</key>
@@ -2930,19 +2938,19 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>28</integer>
+					<integer>121</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>29</integer>
+					<integer>122</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>30</integer>
+					<integer>123</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>31</integer>
+					<integer>124</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
@@ -2953,61 +2961,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>47</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>31</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
 					<integer>283</integer>
 				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>35</integer>
-			</dict>
-			<key>NS.keys</key>
-			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>33</integer>
-				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>46</integer>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>35</integer>
-			</dict>
-			<key>NS.keys</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>40</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>41</integer>
-				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>50</integer>
+					<integer>15</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -3015,21 +2973,10 @@
 				</dict>
 			</array>
 		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>38</integer>
-			</dict>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>52</integer>
-				</dict>
-			</array>
-		</dict>
-		<string>BBMessageBubbleViewController.xib (English)</string>
+		<real>335717404.69052899</real>
+		<string>{835, 1689}</string>
+		<string>{480, 0}</string>
+		<string>@implementation BBMessageBubbleViewController</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -3047,7 +2994,7 @@
 				<integer>287</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/ralphharrer/Development/iPhone/RHMessageBubble%20Project/RHMessageBubble/RHMessageBubble/BBMessageBubble/en.lproj/BBMessageBubbleViewController.xib</string>
+		<string>file://localhost/Users/ralphharrer/Development/iPhone/RHMessageBubble%20Project/RHMessageBubble/RHMessageBubble/BBMessageBubble/BBMessageBubbleViewController.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -3179,7 +3126,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>312</integer>
+				<integer>310</integer>
 			</dict>
 			<key>geniusEditorContextNode</key>
 			<dict>
@@ -3194,14 +3141,14 @@
 			<key>rootLayoutTreeNode</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>309</integer>
+				<integer>307</integer>
 			</dict>
 		</dict>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>311</integer>
+				<integer>309</integer>
 			</dict>
 			<key>children</key>
 			<dict>
@@ -3220,7 +3167,7 @@
 			<key>parent</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>309</integer>
+				<integer>307</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -3232,7 +3179,7 @@
 			<key>DocumentLocation</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>308</integer>
+				<integer>277</integer>
 			</dict>
 			<key>DomainIdentifier</key>
 			<dict>
@@ -3247,7 +3194,7 @@
 			<key>IndexOfDocumentIdentifier</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>307</integer>
+				<integer>139</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -3309,34 +3256,16 @@
 			</dict>
 		</dict>
 		<string>BBMessageBubble</string>
-		<integer>9223372036854775807</integer>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>279</integer>
-			</dict>
-			<key>documentURL</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>26</integer>
-			</dict>
-			<key>timestamp</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>0</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>311</integer>
+				<integer>309</integer>
 			</dict>
 			<key>children</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>310</integer>
+				<integer>308</integer>
 			</dict>
 			<key>contentType</key>
 			<integer>0</integer>
@@ -3402,7 +3331,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>314</integer>
+					<integer>312</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3416,11 +3345,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>315</integer>
+					<integer>313</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>317</integer>
+					<integer>315</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3449,7 +3378,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>316</integer>
+					<integer>314</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3479,7 +3408,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>318</integer>
+					<integer>316</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3494,22 +3423,22 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
+					<integer>318</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>319</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
 					<integer>320</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>321</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>322</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>323</integer>
+					<integer>321</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -3517,7 +3446,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>340</integer>
+					<integer>338</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3532,6 +3461,14 @@
 			</dict>
 			<key>NS.keys</key>
 			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>322</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>323</integer>
+				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>324</integer>
@@ -3560,14 +3497,6 @@
 					<key>CF$UID</key>
 					<integer>330</integer>
 				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>331</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>332</integer>
-				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
@@ -3577,7 +3506,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>333</integer>
+					<integer>331</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>332</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -3585,27 +3518,23 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
+					<integer>335</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>15</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
 					<integer>336</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
+					<integer>15</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
 					<integer>337</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>15</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>338</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>15</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>339</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3623,7 +3552,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>335</integer>
+				<integer>333</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array/>
@@ -3642,7 +3571,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>335</integer>
+				<integer>333</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array/>
@@ -3660,7 +3589,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>335</integer>
+				<integer>333</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array/>
@@ -3669,7 +3598,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>335</integer>
+				<integer>333</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array/>
@@ -3682,6 +3611,14 @@
 			</dict>
 			<key>NS.keys</key>
 			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>339</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>340</integer>
+				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>341</integer>
@@ -3702,20 +3639,24 @@
 					<key>CF$UID</key>
 					<integer>345</integer>
 				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
 				<dict>
 					<key>CF$UID</key>
 					<integer>346</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>347</integer>
+					<integer>15</integer>
 				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>348</integer>
+					<integer>347</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>15</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -3727,19 +3668,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>15</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>15</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>351</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>354</integer>
+					<integer>352</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3755,7 +3684,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>350</integer>
+				<integer>348</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array/>
@@ -3779,7 +3708,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>352</integer>
+					<integer>350</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3793,7 +3722,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>353</integer>
+					<integer>351</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -3810,21 +3739,21 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>350</integer>
+				<integer>348</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>353</integer>
+				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>355</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>357</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>358</integer>
+					<integer>356</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3838,7 +3767,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>353</integer>
+					<integer>351</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -3846,7 +3775,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>356</integer>
+					<integer>354</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3861,7 +3790,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>353</integer>
+					<integer>351</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3875,7 +3804,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>353</integer>
+					<integer>351</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -3900,7 +3829,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>360</integer>
+					<integer>358</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3914,15 +3843,15 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
+					<integer>359</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
 					<integer>361</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>363</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>365</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3951,7 +3880,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>362</integer>
+					<integer>360</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3981,7 +3910,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>364</integer>
+					<integer>362</integer>
 				</dict>
 			</array>
 		</dict>
@@ -4007,11 +3936,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>366</integer>
+					<integer>364</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>367</integer>
+					<integer>365</integer>
 				</dict>
 			</array>
 		</dict>
