@@ -4,6 +4,7 @@ Version 1.0
 22. August 2011
 Author: Ralph Harrer
 Web: http://www.ralphharrer.at
+Project website: http://development.ralphharrer.at/ios/RHMessageBubble/
 
 
 INSTRUCTIONS
@@ -15,10 +16,19 @@ Source/RHMessageBubble.m
 Start displaying messages with the methods defined in
 Source/RHMessageBubble.h
 
-Example:
-[RHMessageBubble bubbleWithSpinnerAndString:@"Hello World" 
-									 toView:self.view 
-								 forSeconds:2.0f];
-								 
-								 
-For further instructions check out the demo project
+The message bubbles will remove themselves if you specify a time in the "forSeconds" parameter.
+Otherwise you need to remove them manually by calling
+[RHMessageBubble removeBubbleFromView:view];
+
+
+EXAMPLES
+--------
+[RHMessageBubble bubbleWithSpinnerAndString:@"Hello World" toView:self.view forSeconds:2.0f];
+
+or
+[RHMessageBubble bubbleWithSpinnerAndString:@"Hello World" toView:self.view];
+...
+[RHMessageBubble removeBubbleFromView:self.view];
+					
+					
+For further examples check out the demo project

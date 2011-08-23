@@ -9,7 +9,7 @@
 #import "BBMessageBubbleViewController.h"
 #import "RHMessageBubble.h"
 
-#define RH_MESSAGE_BUBBLE_TIME 2.0f
+#define RH_MESSAGE_BUBBLE_TIME 1.0f
 #define RH_TEST_IMAGE @"Smile"
 
 @implementation BBMessageBubbleViewController

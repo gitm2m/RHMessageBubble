@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9999C47C1403BD5300727732 /* Smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 9999C47A1403BD5300727732 /* Smile.png */; };
+		9999C47D1403BD5300727732 /* Smile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9999C47B1403BD5300727732 /* Smile@2x.png */; };
 		99EE3CDB1402A25700A3D596 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EE3CDA1402A25700A3D596 /* UIKit.framework */; };
 		99EE3CDD1402A25700A3D596 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EE3CDC1402A25700A3D596 /* Foundation.framework */; };
 		99EE3CDF1402A25800A3D596 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EE3CDE1402A25800A3D596 /* CoreGraphics.framework */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9999C47A1403BD5300727732 /* Smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Smile.png; sourceTree = "<group>"; };
+		9999C47B1403BD5300727732 /* Smile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Smile@2x.png"; sourceTree = "<group>"; };
 		99EE3CD61402A25700A3D596 /* BBMessageBubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBMessageBubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99EE3CDA1402A25700A3D596 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		99EE3CDC1402A25700A3D596 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -52,6 +56,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9999C4781403BD2200727732 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9999C47A1403BD5300727732 /* Smile.png */,
+				9999C47B1403BD5300727732 /* Smile@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		99EE3CCB1402A25700A3D596 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +110,7 @@
 		99EE3CE11402A25800A3D596 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9999C4781403BD2200727732 /* Images */,
 				99EE3CE21402A25800A3D596 /* BBMessageBubble-Info.plist */,
 				99EE3CE31402A25800A3D596 /* InfoPlist.strings */,
 				99EE3CE61402A25800A3D596 /* main.m */,
@@ -164,6 +178,8 @@
 				99EE3CE51402A25800A3D596 /* InfoPlist.strings in Resources */,
 				99EE3CEE1402A25800A3D596 /* MainWindow.xib in Resources */,
 				99EE3CF41402A25800A3D596 /* BBMessageBubbleViewController.xib in Resources */,
+				9999C47C1403BD5300727732 /* Smile.png in Resources */,
+				9999C47D1403BD5300727732 /* Smile@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
