@@ -227,10 +227,10 @@
 	[activityIndicator release];
 	
 	CGRect spinnerFrame = activityIndicator.frame;
-	spinnerFrame.origin = CGPointMake(view.frame.size.width / 2 - 
-									  activityIndicator.frame.size.width / 2, 
-									  view.frame.size.height / 2 - 
-									  activityIndicator.frame.size.height / 2);
+	spinnerFrame.origin = CGPointMake((NSInteger)(view.frame.size.width / 2 - 
+									  activityIndicator.frame.size.width / 2), 
+									  (NSInteger)(view.frame.size.height / 2 - 
+									  activityIndicator.frame.size.height / 2));
 	activityIndicator.frame = spinnerFrame;
 	
 	[RHMessageBubble addBackground:view];
@@ -255,7 +255,7 @@
 	NSInteger numLines = 1;
 	
 	if (size.width > (RH_MESSAGE_BUBBLE_SIDE_LENGTH - 2 * RH_MESSAGE_BUBBLE_PADDING)) {
-		NSInteger maxWidth = RH_MESSAGE_BUBBLE_SIDE_LENGTH - 2 * RH_MESSAGE_BUBBLE_PADDING;
+		NSInteger maxWidth = (NSInteger)(RH_MESSAGE_BUBBLE_SIDE_LENGTH - 2 * RH_MESSAGE_BUBBLE_PADDING);
 		CGFloat lines = (CGFloat)size.width / (CGFloat)maxWidth;
 		NSInteger rounded = (NSInteger)lines;
 		CGFloat over = lines - rounded;
@@ -265,7 +265,11 @@
 		numLines = rounded;
 	}
 	
-	CGRect rect = CGRectMake(RH_MESSAGE_BUBBLE_PADDING, RH_MESSAGE_BUBBLE_PADDING, RH_MESSAGE_BUBBLE_SIDE_LENGTH - 2 * RH_MESSAGE_BUBBLE_PADDING, RH_MESSAGE_BUBBLE_SIDE_LENGTH - 2 * RH_MESSAGE_BUBBLE_PADDING);
+	CGRect rect = CGRectMake(
+                             RH_MESSAGE_BUBBLE_PADDING, 
+                             RH_MESSAGE_BUBBLE_PADDING, 
+                             (NSInteger)(RH_MESSAGE_BUBBLE_SIDE_LENGTH - 2 * RH_MESSAGE_BUBBLE_PADDING), 
+                             (NSInteger)(RH_MESSAGE_BUBBLE_SIDE_LENGTH - 2 * RH_MESSAGE_BUBBLE_PADDING));
 	
 	UILabel* label = [RHMessageBubble getLabelWithText:text];
 	label.frame = rect;
@@ -293,7 +297,7 @@
 	NSInteger numLines = 1;
 	
 	if (size.width > (RH_MESSAGE_BUBBLE_SIDE_LENGTH - 2 * RH_MESSAGE_BUBBLE_PADDING)) {
-		NSInteger maxWidth = RH_MESSAGE_BUBBLE_SIDE_LENGTH - 2 * RH_MESSAGE_BUBBLE_PADDING;
+		NSInteger maxWidth = (NSInteger)(RH_MESSAGE_BUBBLE_SIDE_LENGTH - 2 * RH_MESSAGE_BUBBLE_PADDING);
 		CGFloat lines = (CGFloat)size.width / (CGFloat)maxWidth;
 		NSInteger rounded = (NSInteger)lines;
 		CGFloat over = lines - rounded;
@@ -303,7 +307,7 @@
 		numLines = rounded;
 	}
 	
-	CGRect rect = CGRectMake(0, 0, RH_MESSAGE_BUBBLE_SIDE_LENGTH - 2 * RH_MESSAGE_BUBBLE_PADDING, numLines * lineHeight.height);
+	CGRect rect = CGRectMake(0, 0, (NSInteger)(RH_MESSAGE_BUBBLE_SIDE_LENGTH - 2 * RH_MESSAGE_BUBBLE_PADDING), numLines * lineHeight.height);
 	
 	UILabel* label = [[UILabel alloc] initWithFrame:rect];
 	[label setText:text];
@@ -375,17 +379,17 @@
 	
 	NSInteger paddingBetween = 10;
 	
-	CGRect rect = CGRectMake(RH_MESSAGE_BUBBLE_PADDING, 0, RH_MESSAGE_BUBBLE_SIDE_LENGTH - 2 * RH_MESSAGE_BUBBLE_PADDING, topView.frame.size.height + bottomView.frame.size.height + paddingBetween);
+	CGRect rect = CGRectMake(RH_MESSAGE_BUBBLE_PADDING, 0, (NSInteger)(RH_MESSAGE_BUBBLE_SIDE_LENGTH - 2 * RH_MESSAGE_BUBBLE_PADDING), topView.frame.size.height + bottomView.frame.size.height + paddingBetween);
 	container.frame = rect;
 	
-	NSInteger topViewCenter = (RH_MESSAGE_BUBBLE_SIDE_LENGTH - 2*RH_MESSAGE_BUBBLE_PADDING) / 2 - topView.frame.size.width / 2;
+	NSInteger topViewCenter = (NSInteger)((RH_MESSAGE_BUBBLE_SIDE_LENGTH - 2*RH_MESSAGE_BUBBLE_PADDING) / 2 - topView.frame.size.width / 2);
 	
 	topView.frame = CGRectMake(topViewCenter, 
 							   0, 
 							   topView.frame.size.width, 
 							   topView.frame.size.height);
 	
-	NSInteger bottomViewCenter = (RH_MESSAGE_BUBBLE_SIDE_LENGTH - 2*RH_MESSAGE_BUBBLE_PADDING) / 2 - bottomView.frame.size.width / 2;
+	NSInteger bottomViewCenter = (NSInteger)((RH_MESSAGE_BUBBLE_SIDE_LENGTH - 2*RH_MESSAGE_BUBBLE_PADDING) / 2 - bottomView.frame.size.width / 2);
 	
 	bottomView.frame = CGRectMake(bottomViewCenter, 
 								  topView.frame.size.height + paddingBetween, 
@@ -397,10 +401,10 @@
 	
 	CGRect contRect = container.frame;
 	
-	contRect.origin.y = view.frame.size.height / 2 - container.frame.size.height / 2;
+	contRect.origin.y = (NSInteger)(view.frame.size.height / 2 - container.frame.size.height / 2);
 	
 	if (bottomView.frame.size.height + topView.frame.size.height > RH_MESSAGE_BUBBLE_SIDE_LENGTH - RH_MESSAGE_BUBBLE_PADDING * 2) {
-		contRect.size.height = RH_MESSAGE_BUBBLE_SIDE_LENGTH - RH_MESSAGE_BUBBLE_PADDING * 2;
+		contRect.size.height = (NSInteger)(RH_MESSAGE_BUBBLE_SIDE_LENGTH - RH_MESSAGE_BUBBLE_PADDING * 2);
 	}
 	
 	container.frame = contRect;
@@ -413,8 +417,8 @@
 + (void)addView:(UIView*)view centeredToParent:(UIView*)parent
 {
 	CGRect frameRect = view.frame;
-	CGPoint loc = CGPointMake(parent.frame.size.width/2 - frameRect.size.width/2, 
-							  parent.frame.size.height/2 - frameRect.size.height/2);
+	CGPoint loc = CGPointMake((NSInteger)(parent.frame.size.width/2 - frameRect.size.width/2), 
+							  (NSInteger)(parent.frame.size.height/2 - frameRect.size.height/2));
 	[RHMessageBubble addView:view toParent:parent onPosition:loc];
 }
 

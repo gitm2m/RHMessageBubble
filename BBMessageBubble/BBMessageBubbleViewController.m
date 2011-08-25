@@ -120,7 +120,7 @@
 - (IBAction)switchChanged:(id)sender
 {
 	UISwitch* switchButton = (UISwitch*)sender;
-	self.remove = switchButton.selected;
+	self.remove = switchButton.on;
 	
 	if (self.remove) {
 		self.time = RH_MESSAGE_BUBBLE_TIME;
