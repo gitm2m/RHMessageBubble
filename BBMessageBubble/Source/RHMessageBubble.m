@@ -467,10 +467,14 @@
 	self.transform = CGAffineTransformMakeScale(3.0, 3.0);
 	self.hidden = NO;
 	
-	[UIView animateWithDuration:0.3 animations:^{
-		self.transform = CGAffineTransformIdentity;
-		self.alpha = 1.0;
-	}];
+    [UIView animateWithDuration:0.3 
+                          delay:0 
+                        options:UIViewAnimationOptionAllowUserInteraction 
+                     animations:^{
+                         self.transform = CGAffineTransformIdentity;
+                         self.alpha = 1.0;
+                     } 
+                     completion:nil];
 }
 
 - (void)showAndPerformSelector:(SEL)action target:(id)target after:(CGFloat)seconds
@@ -479,24 +483,32 @@
 	self.transform = CGAffineTransformMakeScale(3.0, 3.0);
 	self.hidden = NO;
 	
-	[UIView animateWithDuration:0.3 animations:^{
-		self.transform = CGAffineTransformIdentity;
-		self.alpha = 1.0;
-	} completion:^(BOOL finished){
-		if ([target respondsToSelector:action]) {
-			[target performSelector:action withObject:target afterDelay:seconds];
-		}
-	}];
+    [UIView animateWithDuration:0.3 
+                          delay:0 
+                        options:UIViewAnimationOptionAllowUserInteraction 
+                     animations:^{
+                         self.transform = CGAffineTransformIdentity;
+                         self.alpha = 1.0;
+                     } 
+                     completion:^(BOOL finished){
+                         if ([target respondsToSelector:action]) {
+                             [target performSelector:action withObject:target afterDelay:seconds];
+                         }
+                     }];
 }
 
 - (void)hideAndRemove
 {
-	[UIView animateWithDuration:0.3 animations:^{
-		self.alpha = 0;
-		self.transform = CGAffineTransformMakeScale(0.5, 0.5);
-	} completion:^(BOOL finished) {
-		[self removeFromSuperview];
-	}];
+    [UIView animateWithDuration:0.3 
+                          delay:0 
+                        options:UIViewAnimationOptionAllowUserInteraction 
+                     animations:^{
+                         self.alpha = 0;
+                         self.transform = CGAffineTransformMakeScale(0.5, 0.5);
+                     } 
+                     completion:^(BOOL finished){
+                         [self removeFromSuperview];
+                     }];
 }
 
 - (void)dealloc
